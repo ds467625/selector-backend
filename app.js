@@ -10,7 +10,7 @@ function trackEvent(action, data = {}) {
 // ══ PORTAL LOCK CHECK ══
 const _API_BASE = (window.location.hostname === 'localhost' || window.location.protocol === 'file:')
   ? 'http://localhost:3000'
-  : 'https://selector-production-b208.up.railway.app';
+  : 'https://selector-backend-5n3e.onrender.com';
 
 function show404() {
   document.documentElement.innerHTML = `<!DOCTYPE html>
