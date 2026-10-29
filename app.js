@@ -46,7 +46,6 @@ const HP_QUESTIONS = [
   { q: 'What is the core of Harry Potter\'s wand? 🪄', a: 'phoenix feather' },
   { q: 'Who is the Half-Blood Prince? 🖤', a: 'snape' },
   { q: 'What magical creature guards Azkaban? 👻', a: 'dementor' },
-  { q: 'What does the spell "Lumos" do? ✨', a: 'light' },
 ];
 const _hpQ = HP_QUESTIONS[Math.floor(Math.random() * HP_QUESTIONS.length)];
 document.getElementById('hpQuestion').textContent = _hpQ.q;
