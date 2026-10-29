@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: selector-backend
+    runtime: node
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: MONGO_URI
+        value: mongodb+srv://ds467625_db_user:Cy9ODj7gFOq47c5O@cluster0.p54j0g2.mongodb.net/selector
